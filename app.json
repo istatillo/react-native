@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FoodListApp",
+    "name": "Food List App",
     "slug": "FoodListApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.istatillo.FoodListApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b1287e9-7b49-4b2c-9b72-19537487bf42"
+      }
     }
   }
 }
